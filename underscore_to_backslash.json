@@ -1,0 +1,21 @@
+{
+  "title": "underscore to backslash for JIS",
+  "rules": [
+    {
+      "description": "_ を \\ にする(シフトを押しながらの _ は _ のまま)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "international1"
+          },
+          "to": [
+            {
+              "key_code": "international3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
